@@ -1,0 +1,313 @@
+
+/* *** Popup *** */
+
+
+.popup_div, .form_input input, a, a:visited
+{
+	color: #7a472c;
+}
+
+.form_input
+{
+	border: 2px solid #7a472c;
+}
+
+.popup
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/popup_darkening.png');
+	
+	position: absolute;
+	display: table;
+	
+	width: 100%;
+	height: 100%;
+}
+
+.popup_tr
+{
+	display: table-row;
+}
+
+.popup_td
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
+.popup_div
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/popup_bg.png'); background-repeat: no-repeat; background-position: center center;
+	background-size: 600px 350px;
+	
+	/* background-color: #FFFFFF; */
+	
+	margin: 0px auto;
+	
+	padding: 25px;
+	padding-bottom: 0px;
+	
+	width: 550px;
+	height: 325px;
+	
+	
+}
+
+.popup_x, .popup_x:visited
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/wl/wl_groep_button.png'); background-repeat: no-repeat; background-position: center center;
+	background-size: 56px 56px;
+	
+	display: block;
+	float: right;
+	
+	width: 56px;
+	height: 56px;
+	
+	margin-left: 15px;
+	margin-bottom: 15px;
+	
+	padding: 0px;
+	
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);	
+}
+
+.popup_x:active, .popup_x:hover
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/wl/wl_groep_button_selected.png');
+	color: #fff;
+}
+
+.form_input
+{
+	display: table;
+	width: 546px;
+	height: 36px;
+	
+	margin-bottom: 15px;
+	line-height: 36px;
+
+}
+
+.form_input div:first-child
+{
+	background-color: #FFFFFF;
+	width: 70px;
+	padding-left: 10px;
+}
+
+.form_input div
+{
+	display: table-cell;
+	vertical-align: center;
+
+	font-weight: bold;
+	
+}
+
+.form_input input
+{
+	border: 0px solid #FFFFFF;
+	
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	width: 446px;
+	
+	height: 36px;
+	line-height: 36px;
+	
+}
+
+.form_label
+{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form_spacer
+{
+	height: 15px;
+}
+
+.button, .button:visited, .button:active, .button:hover,
+.button_disabled
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/wl/wl_button.png'); background-repeat: no-repeat; background-position: center center;
+	background-size: 300px 75px;
+	
+	display: inline-block;
+	
+	color: #FFFFFF;
+
+	width: 270px;
+	height: 55px;
+	
+	padding: 10px;	
+	padding-left: 15px;
+	padding-right: 15px;
+		
+
+	font-size: 28px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 45px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);	
+}
+
+.button:active, .button:hover
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/wl/wl_button_selected.png');
+	color: #FFFFFF;
+}
+
+.button_disabled, .button_disabled:visited, .button_disabled:active, .button_disabled:hover
+{
+	opacity: 0.25;
+	color: #FFFFFF;
+}
+
+
+.share_icon, .share_icon:visited
+{
+	background-repeat: no-repeat; background-position: center center;
+	background-size: 84px 84px;
+	
+	display: inline-block;
+	
+	width: 94px;
+	height: 94px;
+	
+	transition: padding 200ms ease-in-out, background-size 200ms ease-in-out, opacity 300ms ease-in-out;
+	opacity: 0.8;
+	
+	
+}
+
+.share_icon:active, .share_icon:hover
+{
+	background-size: 94px 94px;
+	opacity: 1;
+}
+
+.share_icon_addthis, .share_icon_addthis:visited
+{
+	width: 57px;
+	background-size: 51px 84px;
+}
+
+.share_icon_addthis:active, .share_icon_addthis:hover
+{
+	background-size: 57px 94px;
+}
+
+
+
+
+/* *** Fullscreen & Portrait notification *** */
+#turn_phone, #turn_phone:visited, #turn_phone:active, #turn_phone:hover,
+#fullscreen_phone, #fullscreen_phone:visited, #fullscreen_phone:active, #fullscreen_phone:hover
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/bg_popup.png');
+	
+	position: absolute;
+	z-index: 1000;
+	
+	display: none;	
+
+	padding: 20px;
+	left: 0px;
+	top: 0px;
+	
+	width: calc(100% - 40px);
+	height: 100%;
+	
+	text-decoration: none;
+}
+
+#turn_phone_tr, #fullscreen_phone_tr
+{
+	display: table-row;		
+}
+
+#turn_phone_td, #fullscreen_phone_td
+{
+	display: table-cell;	
+					
+	text-align: center;
+	vertical-align: middle;	
+	
+	color: #FFFFFF;			
+}
+
+#turn_phone_icon, #fullscreen_phone_icon
+{
+	display: block;
+	
+	margin: 0px auto;
+	margin-bottom: 10px;
+	
+	width: 50px;
+	height: 50px;
+	
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/rotate_phone.gif'), url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/bg_rotate_phone.png');
+	background-size: 50px 50px, 50px 50px;
+	background-position: left top, left top;
+	background-repeat: no-repeat, no-repeat;
+}
+
+#fullscreen_phone_icon
+{
+	background-image: url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/fullscreen_phone.gif'), url('../../../../afbeeldingen.spellingoefenen.nl/spelling_oefenen/global/highscore/bg_rotate_phone.png');
+}
+
+@media screen and (orientation:portrait) and (max-width:480px)
+{
+	#turn_phone, #turn_phone:visited, #turn_phone:active, #turn_phone:hover
+	{
+		display: table;
+	}
+}
+
+
+
+
+
+@media screen and (max-width:640px)
+{
+	.form_spacer
+	{
+		height: 7px;
+	}
+
+	.popup_div
+	{
+		background-size: 560px 315px;
+		
+		padding: 10px;
+		padding-bottom: 0px;
+		
+		width: 540px;
+		height: 305px;
+	}
+	
+	.form_input
+	{
+		width: 536px;
+		margin-bottom: 7px;
+	}
+	
+	.form_input input
+	{
+		width: calc(566px - 70px - 10px - 10px - 10px - 30px);
+	}
+}
+
